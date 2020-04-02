@@ -1,0 +1,4 @@
+##开发环境配置文件
+
+#logging.config: classpath:log4j.properties
+logging.config: classpath:logback-spring.xml

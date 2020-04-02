@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25571c74-226e-44e1-bf8f-5202be62ef62" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\tools\apache-maven-3.5.4-bin\apache-maven-3.5.4\MavenRepository" />
+        <option name="mavenHome" value="E:/tools/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="E:\tools\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZxvhCW5vP0E1fnKk7SDLfL7GCz" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/config" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ldgroup.ldmall.ldmallproductservice.common.handle" />
+      <recent name="com.ldgroup.ldmall.ldmallproductservice.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\config" />
+      <recent name="D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\common\utils" />
+      <recent name="D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\resources" />
+      <recent name="D:\dubbo_project\ldmall\ldmall-common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ConnectionTest.selectSboxesBySlineId">
+    <configuration name="ConnectionTest.selectSboxesBySlineId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ldmall-product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ldgroup.ldmall.ldmallproductservice.test.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ldgroup.ldmall.ldmallproductservice.test.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.ldgroup.ldmall.ldmallproductservice.test.mybatis.ConnectionTest" />
+      <option name="METHOD_NAME" value="selectSboxesBySlineId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LdmallProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ldmall-product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ldgroup.ldmall.ldmallproductservice.LdmallProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConnectionTest.selectSboxesBySlineId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25571c74-226e-44e1-bf8f-5202be62ef62" name="Default Changelist" comment="" />
+      <created>1585793676484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585793676484</updated>
+      <workItem from="1585793678540" duration="4874000" />
+      <workItem from="1585808985659" duration="7564000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

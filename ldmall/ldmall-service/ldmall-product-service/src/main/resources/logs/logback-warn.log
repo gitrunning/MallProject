@@ -1,0 +1,13 @@
+2020-04-02 15:56:25.002 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ldgroup.ldmall.ldmallproductservice]' package. Please check your configuration.
+2020-04-02 16:34:06.911 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/tools/apache-maven-3.5.4-bin/apache-maven-3.5.4/MavenRepository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+	jar:file:/E:/tools/apache-maven-3.5.4-bin/apache-maven-3.5.4/MavenRepository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-04-02 16:34:08.674 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ldgroup.ldmall.ldmallproductservice]' package. Please check your configuration.
+2020-04-02 16:34:11.761 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gsonBuilder' defined in class path resource [org/springframework/boot/autoconfigure/gson/GsonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.gson.GsonBuilder]: Factory method 'gsonBuilder' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+2020-04-02 16:39:12.478 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ldgroup.ldmall.ldmallproductservice]' package. Please check your configuration.

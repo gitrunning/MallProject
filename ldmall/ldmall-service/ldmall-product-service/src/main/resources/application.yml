@@ -1,0 +1,81 @@
+server:
+  port: 9137
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 100      #最大并发数
+    max-connections: 200     #最大连接数
+    accepCount: 50      #等待数
+#自定义的日志配置参数
+logging:
+  path: D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\resources\logs   #保存日志
+  lv: INFO    # 控制台日志输出级别
+  dateSize: 1 # 日志保存天数
+#邮箱配置参数
+email:
+  #主机
+  smtpHost: smtp.qq.com
+  #端口(465或587)
+  smtpPort: 465
+  username: xxx@qq.com
+  password: xxxx
+  SSL: true
+  email_from: from@qq.com
+  email_to: to@qq.com
+
+#spring基础配置
+spring:
+  application:
+    name: product-provider
+  sleuth:
+    sampler:
+      probability: 1.0   #2.0后percentage改为probability
+  profiles:
+    active: dev                 #切换开发环境和测试环境，dev为开发环境，prod为测试环境
+  datasource:
+    name: vslm
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialization-mode: always
+    sql-script-encoding: utf-8
+    platform: mysql
+    druid:
+      #监控统计拦截的filters
+      filters: stat,wall
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://10.10.10.3:3306/vslm?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=UTC&useSSL=false
+      username: root
+      password: qpmz
+      #配置初始化大小/最小/最大
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      #获取连接等待超时时间
+      max-wait: 60000
+      #间隔多久进行一次检测，检测需要关闭的空闲连接
+      time-between-eviction-runs-millis: 60000
+      #一个连接在池中最小生存的时间
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      #打开PSCache，并指定每个连接上PSCache的大小。oracle设为true，mysql设为false。分库分表较多推荐设置为false
+      pool-prepared-statements: false
+      max-pool-prepared-statement-per-connection-size: 20
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.ldgroup.ldmall.ldmallproductservice.dao.entity  # 注意：对应实体类的路径
+  #config-location: classpath:mybatis-config.xml
+mapper:
+  mappers: com.ldgroup.ldmall.ldmallproductservice.dao.MyBaseDao #通用mapper基类位置
+  identity: MYSQL
+
+dataacess:
+  data-access-type: 0                 # 0： 使用mybatis    1: 使用data service
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+

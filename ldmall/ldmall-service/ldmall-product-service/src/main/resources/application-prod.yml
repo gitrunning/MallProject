@@ -1,0 +1,9 @@
+##生产环境配置文件
+
+#logging.config: classpath:config/log4j.properties
+logging.config: classpath:config/logback-spring.xml
+
+info.build.artifact: @project.artifactId@
+info.build.name: @project.name@
+info.build.description: @project.description@
+info.build.version: @project.version@

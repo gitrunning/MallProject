@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ldgroup.ldmall.ldmallproductservice.dao.mapper.SboxDao">
+    <resultMap id="map" type="com.ldgroup.ldmall.ldmallproductservice.dao.entity.SBox">
+        <id property="streamBoxId" column="stream_box_id"/>
+        <result property="streamLineId" column="stream_line_id"/>
+        <result property="startTime" column="start_time"/>
+        <result property="endTime" column="end_time"/>
+        <result property="capability" column="capability"/>
+        <result property="useState" column="use_state"/>
+        <result property="opState" column="op_state"/>
+        <result property="setId" column="set_id"/>
+        <result property="reqId" column="req_id"/>
+        <result property="specId" column="spec_id"/>
+        <result property="preSetId" column="pre_set_id"/>
+        <result property="preUseCapability" column="pre_use_capability"/>
+        <result property="lastSetId" column="last_set_id"/>
+        <result property="lastUseCapability" column="last_use_capability"/>
+    </resultMap>
+
+    <!--List<SBox> selectSboxesBySlineId(@Param("slineId") String slineId, @Param("start") LocalDateTime start, @Param("end") LocalDateTime end)-->
+    <select id="selectSboxesBySlineId" resultMap="map">
+        SELECT * FROM stream_box WHERE stream_line_id = #{slineId} AND start_time >= #{start} AND end_time &lt;= #{end} order by start_time asc
+    </select>
+
+
+</mapper>
