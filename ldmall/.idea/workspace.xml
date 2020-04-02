@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25571c74-226e-44e1-bf8f-5202be62ef62" name="Default Changelist" comment="" />
+    <list default="true" id="25571c74-226e-44e1-bf8f-5202be62ef62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/ProductDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/ProductDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +23,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\tools\apache-maven-3.5.4-bin\apache-maven-3.5.4\MavenRepository" />
-        <option name="mavenHome" value="E:/tools/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="E:\tools\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="F:\filecloud\apache-maven-3.5.4\MavenRepository" />
+        <option name="mavenHome" value="F:/filecloud/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="F:\filecloud\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -31,6 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZxvhCW5vP0E1fnKk7SDLfL7GCz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -38,8 +51,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/config" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -47,10 +60,11 @@
       <recent name="com.ldgroup.ldmall.ldmallproductservice.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_project\dubbo_project\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\dao\entity" />
+      <recent name="D:\idea_project\dubbo_project\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\resources\mapper" />
       <recent name="D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\config" />
       <recent name="D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\common\utils" />
       <recent name="D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\resources" />
-      <recent name="D:\dubbo_project\ldmall\ldmall-common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,10 +121,22 @@
       <updated>1585793676484</updated>
       <workItem from="1585793678540" duration="4874000" />
       <workItem from="1585808985659" duration="7564000" />
+      <workItem from="1585826977719" duration="3820000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
