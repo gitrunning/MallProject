@@ -23,7 +23,7 @@ public class ConnectionTest {
     private SboxDao sboxDao;
 
     @Test
-    public void selectSboxesBySlineId(){
+    public void selectSboxesByStatus(){
         Example example = new Example(SBox.class);
         Example.Criteria criteria = example.createCriteria();
         criteria.andNotEqualTo("useState",0);

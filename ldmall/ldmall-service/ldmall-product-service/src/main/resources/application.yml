@@ -1,20 +1,20 @@
 server:
-  port: 9137
+  port: 8061
   tomcat:
     uri-encoding: UTF-8
-    max-threads: 100      #×î´ó²¢·¢Êı
-    max-connections: 200     #×î´óÁ¬½ÓÊı
-    accepCount: 50      #µÈ´ıÊı
-#×Ô¶¨ÒåµÄÈÕÖ¾ÅäÖÃ²ÎÊı
+    max-threads: 100      #æœ€å¤§å¹¶å‘æ•°
+    max-connections: 200     #æœ€å¤§è¿æ¥æ•°
+    accepCount: 50      #ç­‰å¾…æ•°
+#è‡ªå®šä¹‰çš„æ—¥å¿—é…ç½®å‚æ•°
 logging:
-  path: D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\resources\logs   #±£´æÈÕÖ¾
-  lv: INFO    # ¿ØÖÆÌ¨ÈÕÖ¾Êä³ö¼¶±ğ
-  dateSize: 1 # ÈÕÖ¾±£´æÌìÊı
-#ÓÊÏäÅäÖÃ²ÎÊı
+  path: ./ldmall-service/ldmall-product-service/logs   #ä¿å­˜æ—¥å¿—
+  lv: INFO    # æ§åˆ¶å°æ—¥å¿—è¾“å‡ºçº§åˆ«
+  dateSize: 1 # æ—¥å¿—ä¿å­˜å¤©æ•°
+#é‚®ç®±é…ç½®å‚æ•°
 email:
-  #Ö÷»ú
+  #ä¸»æœº
   smtpHost: smtp.qq.com
-  #¶Ë¿Ú(465»ò587)
+  #ç«¯å£(465æˆ–587)
   smtpPort: 465
   username: xxx@qq.com
   password: xxxx
@@ -22,15 +22,15 @@ email:
   email_from: from@qq.com
   email_to: to@qq.com
 
-#spring»ù´¡ÅäÖÃ
+#springåŸºç¡€é…ç½®
 spring:
   application:
     name: product-provider
   sleuth:
     sampler:
-      probability: 1.0   #2.0ºópercentage¸ÄÎªprobability
+      probability: 1.0   #2.0åpercentageæ”¹ä¸ºprobability
   profiles:
-    active: dev                 #ÇĞ»»¿ª·¢»·¾³ºÍ²âÊÔ»·¾³£¬devÎª¿ª·¢»·¾³£¬prodÎª²âÊÔ»·¾³
+    active: dev            #åˆ‡æ¢å¼€å‘ç¯å¢ƒå’Œæµ‹è¯•ç¯å¢ƒï¼Œdevä¸ºå¼€å‘ç¯å¢ƒï¼Œprodä¸ºæµ‹è¯•ç¯å¢ƒ
   datasource:
     name: vslm
     type: com.alibaba.druid.pool.DruidDataSource
@@ -38,40 +38,40 @@ spring:
     sql-script-encoding: utf-8
     platform: mysql
     druid:
-      #¼à¿ØÍ³¼ÆÀ¹½ØµÄfilters
+      #ç›‘æ§ç»Ÿè®¡æ‹¦æˆªçš„filters
       filters: stat,wall
       driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://10.10.10.3:3306/vslm?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=UTC&useSSL=false
       username: root
       password: qpmz
-      #ÅäÖÃ³õÊ¼»¯´óĞ¡/×îĞ¡/×î´ó
+      #é…ç½®åˆå§‹åŒ–å¤§å°/æœ€å°/æœ€å¤§
       initial-size: 1
       min-idle: 1
       max-active: 20
-      #»ñÈ¡Á¬½ÓµÈ´ı³¬Ê±Ê±¼ä
+      #è·å–è¿æ¥ç­‰å¾…è¶…æ—¶æ—¶é—´
       max-wait: 60000
-      #¼ä¸ô¶à¾Ã½øĞĞÒ»´Î¼ì²â£¬¼ì²âĞèÒª¹Ø±ÕµÄ¿ÕÏĞÁ¬½Ó
+      #é—´éš”å¤šä¹…è¿›è¡Œä¸€æ¬¡æ£€æµ‹ï¼Œæ£€æµ‹éœ€è¦å…³é—­çš„ç©ºé—²è¿æ¥
       time-between-eviction-runs-millis: 60000
-      #Ò»¸öÁ¬½ÓÔÚ³ØÖĞ×îĞ¡Éú´æµÄÊ±¼ä
+      #ä¸€ä¸ªè¿æ¥åœ¨æ± ä¸­æœ€å°ç”Ÿå­˜çš„æ—¶é—´
       min-evictable-idle-time-millis: 300000
       validation-query: SELECT 'x'
       test-while-idle: true
       test-on-borrow: false
       test-on-return: false
-      #´ò¿ªPSCache£¬²¢Ö¸¶¨Ã¿¸öÁ¬½ÓÉÏPSCacheµÄ´óĞ¡¡£oracleÉèÎªtrue£¬mysqlÉèÎªfalse¡£·Ö¿â·Ö±í½Ï¶àÍÆ¼öÉèÖÃÎªfalse
+      #æ‰“å¼€PSCacheï¼Œå¹¶æŒ‡å®šæ¯ä¸ªè¿æ¥ä¸ŠPSCacheçš„å¤§å°ã€‚oracleè®¾ä¸ºtrueï¼Œmysqlè®¾ä¸ºfalseã€‚åˆ†åº“åˆ†è¡¨è¾ƒå¤šæ¨èè®¾ç½®ä¸ºfalse
       pool-prepared-statements: false
       max-pool-prepared-statement-per-connection-size: 20
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.ldgroup.ldmall.ldmallproductservice.dao.entity  # ×¢Òâ£º¶ÔÓ¦ÊµÌåÀàµÄÂ·¾¶
+  type-aliases-package: com.ldgroup.ldmall.ldmallproductservice.dao.entity   # æ³¨æ„ï¼šå¯¹åº”å®ä½“ç±»çš„è·¯å¾„
   #config-location: classpath:mybatis-config.xml
 mapper:
-  mappers: com.ldgroup.ldmall.ldmallproductservice.dao.MyBaseDao #Í¨ÓÃmapper»ùÀàÎ»ÖÃ
+  mappers: com.ldgroup.ldmall.ldmallproductservice.dao.MyBaseDao  #é€šç”¨mapperåŸºç±»ä½ç½®
   identity: MYSQL
 
 dataacess:
-  data-access-type: 0                 # 0£º Ê¹ÓÃmybatis    1: Ê¹ÓÃdata service
+  data-access-type: 0                  # 0ï¼š ä½¿ç”¨mybatis    1: ä½¿ç”¨data service
 
 pagehelper:
   helper-dialect: mysql
