@@ -32,7 +32,7 @@ spring:
   profiles:
     active: dev            #切换开发环境和测试环境，dev为开发环境，prod为测试环境
   datasource:
-    name: vslm
+    name: ldshop
     type: com.alibaba.druid.pool.DruidDataSource
     initialization-mode: always
     sql-script-encoding: utf-8
@@ -41,9 +41,9 @@ spring:
       #监控统计拦截的filters
       filters: stat,wall
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://10.10.10.3:3306/vslm?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=UTC&useSSL=false
+      url: jdbc:mysql://localhost:3306/ldshop?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=UTC&useSSL=false
       username: root
-      password: qpmz
+      password: root
       #配置初始化大小/最小/最大
       initial-size: 1
       min-idle: 1

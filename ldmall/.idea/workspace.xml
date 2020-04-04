@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25571c74-226e-44e1-bf8f-5202be62ef62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/ProductDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/domain/ProductInfoVo.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/ProductDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper/ICategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper/IProductDetailDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/SBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper/SboxDao.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/ProductDetailMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/SboxMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/test/java/com/ldgroup/ldmall/ldmallproductservice/test/mybatis/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/test/java/com/ldgroup/ldmall/ldmallproductservice/test/mybatis/ConnectionTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,9 +38,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\tools\apache-maven-3.5.4-bin\apache-maven-3.5.4\MavenRepository" />
-        <option name="mavenHome" value="E:/tools/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="E:\tools\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="F:\filecloud\apache-maven-3.5.4\MavenRepository" />
+        <option name="mavenHome" value="F:/filecloud/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="F:\filecloud\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -54,23 +60,25 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ldgroup.ldmall.ldmallproductservice.dao.mapper" />
+      <recent name="com.ldgroup.ldmall.ldmallproductservice.dao.entity" />
       <recent name="com.ldgroup.ldmall.ldmallproductservice.common.handle" />
       <recent name="com.ldgroup.ldmall.ldmallproductservice.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\dao\mapper" />
+      <recent name="D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\dao\entity" />
+      <recent name="D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\resources\mapper" />
       <recent name="C:\Users\mocar\Desktop\git拉取自己的\20200403\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\resources" />
       <recent name="D:\idea_project\dubbo_project\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\dao\entity" />
-      <recent name="D:\idea_project\dubbo_project\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\resources\mapper" />
-      <recent name="D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\config" />
-      <recent name="D:\dubbo_project\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\common\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,6 +155,7 @@
       <workItem from="1585826977719" duration="3820000" />
       <workItem from="1585879443460" duration="1378000" />
       <workItem from="1585880909116" duration="1144000" />
+      <workItem from="1586012224005" duration="1696000" />
     </task>
     <servers />
   </component>

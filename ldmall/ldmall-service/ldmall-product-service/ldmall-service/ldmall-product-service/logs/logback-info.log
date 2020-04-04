@@ -1,20 +1,68 @@
-2020-04-03 10:37:26.504 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 22452 (started by mocar in C:\Users\mocar\Desktop\git_pull\20200403\MallProject\ldmall\ldmall-service\ldmall-product-service)
-2020-04-03 10:37:26.505 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
-2020-04-03 10:37:29.133 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5dd686c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-03 10:37:30.139 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2020-04-03 10:44:03.316 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 20740 (started by mocar in C:\Users\mocar\Desktop\git_pull\20200403\MallProject\ldmall\ldmall-service\ldmall-product-service)
-2020-04-03 10:44:03.325 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
-2020-04-03 10:44:06.077 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7a8716c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-04-03 10:44:07.406 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2020-04-03 10:44:08.476 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-03 10:44:08.787 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2020-04-03 10:44:08.802 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2020-04-03 10:44:08.804 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2020-04-03 10:44:08.805 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
-2020-04-03 10:44:09.167 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-2020-04-03 10:44:09.281 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2020-04-03 10:44:09.357 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-2020-04-03 10:44:09.392 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Started ConnectionTest in 8.421 seconds (JVM running for 13.358)
-2020-04-03 10:44:10.365 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
-2020-04-03 10:44:10.843 logback [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-03 10:44:10.847 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-05 00:06:16.466 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 9524 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 00:06:16.468 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 00:06:17.382 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32773cfe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 00:06:17.939 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 00:08:05.083 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 10676 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 00:08:05.084 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 00:08:05.879 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d8ecaeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 00:08:06.374 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 00:08:16.743 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 4784 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 00:08:16.744 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 00:08:17.528 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d8ecaeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 00:08:18.016 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 00:09:12.831 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 11004 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 00:09:12.832 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 00:09:13.615 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d7e61f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 00:09:14.101 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 00:10:17.624 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 3920 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 00:10:17.624 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 00:10:18.389 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d1f9c25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 00:10:18.884 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 00:10:54.236 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 5828 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 00:10:54.237 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 00:10:54.993 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$abb1479d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 00:10:55.486 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 00:10:55.897 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 00:10:56.053 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-05 00:10:56.054 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-05 00:10:56.054 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-05 00:10:56.054 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2020-04-05 00:10:56.213 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-05 00:10:56.232 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-05 00:10:56.257 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-05 00:10:56.283 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Started ConnectionTest in 2.391 seconds (JVM running for 2.939)
+2020-04-05 00:10:56.675 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-05 00:10:56.805 logback [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 00:10:56.807 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-05 00:11:30.197 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 6440 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 00:11:30.198 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 00:11:30.969 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d1f9c25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 00:11:31.468 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 00:11:31.866 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 00:11:32.015 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-05 00:11:32.015 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-05 00:11:32.015 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-05 00:11:32.015 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2020-04-05 00:11:32.140 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-05 00:11:32.155 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-05 00:11:32.177 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-05 00:11:32.200 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Started ConnectionTest in 2.332 seconds (JVM running for 2.884)
+2020-04-05 00:11:32.480 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-05 00:11:32.604 logback [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 00:11:32.606 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-05 00:16:29.423 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 2328 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 00:16:29.424 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 00:16:30.190 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$abb1479d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 00:16:30.678 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 00:16:31.078 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 00:16:31.229 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-05 00:16:31.231 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-05 00:16:31.231 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-05 00:16:31.231 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2020-04-05 00:16:31.356 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-05 00:16:31.371 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-05 00:16:31.393 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-05 00:16:31.415 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Started ConnectionTest in 2.327 seconds (JVM running for 2.864)
+2020-04-05 00:16:31.698 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-05 00:16:31.820 logback [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 00:16:31.822 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

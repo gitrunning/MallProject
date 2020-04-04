@@ -1,7 +1,8 @@
 package com.ldgroup.ldmall.ldmallproductservice.test.mybatis;
 
-import com.ldgroup.ldmall.ldmallproductservice.dao.entity.SBox;
-import com.ldgroup.ldmall.ldmallproductservice.dao.mapper.SboxDao;
+
+import com.ldgroup.ldmall.ldmallproductservice.dao.entity.Product;
+import com.ldgroup.ldmall.ldmallproductservice.dao.mapper.IProductDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,15 +21,12 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 public class ConnectionTest {
     @Autowired
-    private SboxDao sboxDao;
+    private IProductDao productDao;
 
     @Test
     public void selectSboxesByStatus(){
-        Example example = new Example(SBox.class);
-        Example.Criteria criteria = example.createCriteria();
-        criteria.andNotEqualTo("useState",0);
-        List<SBox> sBoxes = sboxDao.selectByExample(example);
-        sBoxes.forEach(sBox -> System.out.println(sBox));
+        List<Product> products = productDao.selectAll();
+        products.forEach(product -> System.out.println(product));
 
     }
 }
