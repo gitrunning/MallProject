@@ -1,6 +1,7 @@
 package com.ldgroup.ldmall.ldmallproductservice.dao.entity;
 
-/*import ldshopv1.entity.ProductEntity;*/
+
+import com.ldmall.entity.ProductEntity;
 
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -209,7 +210,7 @@ public class Product implements Serializable {
                 '}';
     }
 
-  /*  public ProductEntity convert(){
+    public ProductEntity convert(){
         ProductEntity productEntity = new ProductEntity();
         productEntity.setCate_id(this.getCateId());
         productEntity.setCreate_time(this.getCreateTime());
@@ -227,7 +228,7 @@ public class Product implements Serializable {
         productEntity.setProduct_title(this.getProductTitle());
 
         return productEntity;
-    }*/
+    }
 
 
 

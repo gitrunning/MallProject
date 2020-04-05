@@ -66,3 +66,63 @@
 2020-04-05 00:16:31.698 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
 2020-04-05 00:16:31.820 logback [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2020-04-05 00:16:31.822 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-05 17:58:53.094 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 5028 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 17:58:53.118 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 17:58:54.209 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f97d60ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 17:58:54.806 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 17:58:55.382 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:58:55.547 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-05 17:58:55.547 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-05 17:58:55.548 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-05 17:58:55.739 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-05 17:58:55.757 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-05 17:58:55.782 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-05 17:58:55.808 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Started ConnectionTest in 3.312 seconds (JVM running for 4.611)
+2020-04-05 17:58:56.265 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-05 17:58:56.502 logback [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:58:56.506 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-05 18:22:20.172 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 1080 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 18:22:20.173 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 18:22:21.119 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb27da9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 18:22:21.914 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 18:22:22.261 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 18:22:22.441 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-05 18:22:22.442 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-05 18:22:22.442 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-05 18:22:22.608 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-05 18:22:22.626 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-05 18:22:22.651 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-05 18:22:22.678 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Started ConnectionTest in 2.924 seconds (JVM running for 3.579)
+2020-04-05 18:22:22.987 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-05 18:22:23.128 logback [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 18:22:23.132 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-05 18:52:41.980 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 3816 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 18:52:41.981 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 18:52:42.961 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a3a864d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 18:52:43.723 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 18:52:44.089 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 18:52:44.274 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-05 18:52:44.274 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-05 18:52:44.275 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-05 18:52:44.478 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-05 18:52:44.497 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-05 18:52:44.526 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-05 18:52:44.552 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Started ConnectionTest in 3.008 seconds (JVM running for 3.66)
+2020-04-05 18:52:44.870 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-05 18:52:45.040 logback [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 18:52:45.044 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-05 18:53:36.405 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Starting ConnectionTest on mocar with PID 11532 (started by mocar in D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service)
+2020-04-05 18:53:36.406 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - The following profiles are active: dev
+2020-04-05 18:53:37.360 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a3a864d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 18:53:38.161 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-04-05 18:53:38.510 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 18:53:38.710 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-05 18:53:38.711 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-05 18:53:38.711 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-05 18:53:38.910 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-05 18:53:38.927 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-05 18:53:38.955 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-05 18:53:38.981 logback [main] INFO  c.l.l.l.test.mybatis.ConnectionTest - Started ConnectionTest in 2.973 seconds (JVM running for 3.632)
+2020-04-05 18:53:39.311 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-05 18:53:39.480 logback [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 18:53:39.483 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

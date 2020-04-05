@@ -1,0 +1,5 @@
+com\ldmall\common\result\ApiInfo.class
+com\ldmall\common\result\ResultUtil.class
+com\ldmall\common\result\ApiException.class
+com\ldmall\common\result\ResultCode.class
+com\ldmall\common\result\ApiResult.class

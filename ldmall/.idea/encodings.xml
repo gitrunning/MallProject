@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ldmall-api/ldmall-product-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimode/src/main/java/com/ldmall/entity/CategoryEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimode/src/main/java/com/ldmall/entity/ProductDetailEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimode/src/main/java/com/ldmall/entity/ProductEntity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldmall-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ldmall-service/ldmall-product-service" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />

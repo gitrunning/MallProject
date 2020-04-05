@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25571c74-226e-44e1-bf8f-5202be62ef62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/ProductDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper/ICategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper/IProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper/IProductDetailDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-api/ldmall-product-api/src/main/java/com/ldmall/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimode/src/main/java/com/ldmall/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimode/src/main/java/com/ldmall/entity/ProductDetailEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimode/src/main/java/com/ldmall/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-api/ldmall-product-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-api/ldmall-product-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimodel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-apimodel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-apimodel/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/ldmall-service/ldmall-product-service/logs/logback-warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/SBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper/SboxDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/resources/mapper/SboxMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/common/handle/ApiExceptionHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/common/handle/ApiExceptionHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/service/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/test/java/com/ldgroup/ldmall/ldmallproductservice/test/mybatis/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/test/java/com/ldgroup/ldmall/ldmallproductservice/test/mybatis/ConnectionTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,7 +60,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ldmall-service/ldmall-product-service/src/main/java/com/ldgroup/ldmall/ldmallproductservice/dao/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ldmall-apimodel/ldmall-product-apimode/src/main/java/com/ldmall/entity" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -74,11 +74,11 @@
       <recent name="com.ldgroup.ldmall.ldmallproductservice.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_project2020\MallProject\ldmall\ldmall-apimodel\ldmall-product-apimode\src\main\java\com\ldmall\entity" />
       <recent name="D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\dao\mapper" />
       <recent name="D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\dao\entity" />
       <recent name="D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\resources\mapper" />
       <recent name="C:\Users\mocar\Desktop\git拉取自己的\20200403\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\resources" />
-      <recent name="D:\idea_project\dubbo_project\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\java\com\ldgroup\ldmall\ldmallproductservice\dao\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,7 +93,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionTest.selectSboxesByStatus">
+  <component name="RunManager" selected="JUnit.ConnectionTest.getAll">
+    <configuration name="ConnectionTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ldmall-product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ldgroup.ldmall.ldmallproductservice.test.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ldgroup.ldmall.ldmallproductservice.test.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.ldgroup.ldmall.ldmallproductservice.test.mybatis.ConnectionTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConnectionTest.selectSboxesBySlineId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ldmall-product-service" />
       <extension name="coverage">
@@ -135,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConnectionTest.getAll" />
         <item itemvalue="JUnit.ConnectionTest.selectSboxesByStatus" />
         <item itemvalue="JUnit.ConnectionTest.selectSboxesBySlineId" />
       </list>
@@ -156,6 +173,7 @@
       <workItem from="1585879443460" duration="1378000" />
       <workItem from="1585880909116" duration="1144000" />
       <workItem from="1586012224005" duration="1696000" />
+      <workItem from="1586071673208" duration="4457000" />
     </task>
     <servers />
   </component>
