@@ -1,6 +1,7 @@
 package com.ldgroup.ldmall.ldmallproductservice.service;
 
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.ldgroup.ldmall.ldmallproductservice.dao.entity.Product;
 import com.ldgroup.ldmall.ldmallproductservice.dao.mapper.IProductDao;
 import com.ldmall.common.result.ApiException;
@@ -11,7 +12,8 @@ import com.ldmall.entity.ProductEntity;
 import com.ldmall.service.IProductService;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +23,9 @@ import java.util.List;
  * @Author by mocar小师兄
  * @Date 2020/4/2 15:04
  **/
+@Component
+@Transactional
+//@Service(version = "1.0.0",interfaceClass = IProductService.class)
 @Service
 public class ProductServiceImpl implements IProductService {
     @Autowired

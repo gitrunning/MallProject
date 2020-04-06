@@ -1,11 +1,13 @@
 package com.ldmall.common.result;
 
+import java.io.Serializable;
+
 /**
  * @Description
  * @Author by mocar小师兄
  * @Date 2020/4/2 11:07
  **/
-public class ApiException extends RuntimeException {
+public class ApiException extends RuntimeException implements Serializable {
     private ApiResult apiResult;
 
     public ApiResult getApiResult() {

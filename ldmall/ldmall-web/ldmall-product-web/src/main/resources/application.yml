@@ -1,5 +1,5 @@
 server:
-  port: 8061
+  port: 8071
   tomcat:
     uri-encoding: UTF-8
     max-threads: 100      #最大并发数
@@ -7,7 +7,7 @@ server:
     accepCount: 50      #等待数
 #自定义的日志配置参数
 logging:
-  path: D:\idea_project2020\MallProject\ldmall\ldmall-service\ldmall-product-service\src\main\resources\productServiceLogs   #保存日志
+  path: D:\idea_project2020\MallProject\ldmall\ldmall-web\ldmall-product-web\src\main\resources\webLogs   #保存日志
   lv: INFO    # 控制台日志输出级别
   dateSize: 1 # 日志保存天数
 #邮箱配置参数
@@ -73,20 +73,10 @@ mapper:
 dataacess:
   data-access-type: 0                  # 0： 使用mybatis    1: 使用data service
 
-pagehelper:
-  helper-dialect: mysql
-  reasonable: true
-  support-methods-arguments: true
-  params: count=countSql
-
 #Dubbo provider configuration
 dubbo:
   application:
-    name: dubbo-product-provider
+    name: dubbo-product-consumer
   registry:
     protocol: zookeeper
     address: zookeeper://192.168.239.129:2181     #zookeeper://192.168.239.129:2181        zookeeper://127.0.0.1:2181
-  protocol:
-    port: 20081
-  scan:
-    base-packages: com.ldgroup.ldmall.ldmallproductservice.service

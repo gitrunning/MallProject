@@ -3,6 +3,8 @@ package com.ldmall.common.result;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
+import java.io.Serializable;
+
 /**
  * @Description
  * @Author by mocar小师兄
@@ -12,7 +14,7 @@ import io.swagger.annotations.ApiModelProperty;
         value = "ApiResult",
         description = "统一错误码"
 )
-public class ApiResult<T> {
+public class ApiResult<T> implements Serializable {
     @ApiModelProperty("http专用错误码")
     private Integer httpCode;
     @ApiModelProperty(

@@ -9,6 +9,7 @@
         <module name="ldmall-common" />
         <module name="ldmall-product-service" />
         <module name="ldmall-service" />
+        <module name="ldmall-product-web" />
         <module name="ldmall-product-api" />
         <module name="ldmall-product-apimode" />
         <module name="ldmall-web" />
@@ -16,13 +17,13 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ldmall-product-api" target="1.8" />
-      <module name="ldmall-product-apimodel" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ldmall-common" options="-parameters" />
       <module name="ldmall-product-service" options="-parameters" />
+      <module name="ldmall-product-web" options="-parameters" />
     </option>
   </component>
 </project>

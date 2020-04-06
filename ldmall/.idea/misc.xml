@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ldmall-service/ldmall-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ldmall-web/ldmall-product-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

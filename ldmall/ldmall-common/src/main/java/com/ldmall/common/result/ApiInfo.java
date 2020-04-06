@@ -3,6 +3,8 @@ package com.ldmall.common.result;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
+import java.io.Serializable;
+
 /**
  * @Description
  * @Author by mocar小师兄
@@ -12,7 +14,7 @@ import io.swagger.annotations.ApiModelProperty;
         value = "ApiInfo",
         description = "API基本信息"
 )
-public class ApiInfo {
+public class ApiInfo implements Serializable {
     @ApiModelProperty("服务模块名")
     private String module_name = "unknown name";
     @ApiModelProperty("服务模块IP地址")
